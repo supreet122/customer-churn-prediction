@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build files
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# =====================================================
+# DATA
+# =====================================================
+
+data/*.csv
+data/processed/
+
+# =====================================================
+# TRAINED MODELS
+# =====================================================
+
+models/*.pkl
+
+# =====================================================
+# GENERATED REPORTS
+# =====================================================
+
+reports/*.csv
+reports/*.png
