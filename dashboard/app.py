@@ -481,9 +481,9 @@ if st.button(
         ):
 
             response = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://customer-churn-prediction-tn0a.onrender.com/predict",
                 json=customer_data,
-                timeout=30
+                timeout=60
             )
 
 
@@ -860,8 +860,8 @@ if st.button(
         )
 
         st.info(
-            "Make sure FastAPI is running on "
-            "http://127.0.0.1:8000"
+            "Make sure the FastAPI backend is live on Render and "
+            "the /predict endpoint is available."
         )
 
 
